@@ -2,7 +2,7 @@
 ## Description
 Potik is a Go framework for dataflow programming. 
 It is modeled after a flow-based programming library called [goflow](https://github.com/trustmaster/goflow),
-but removes the features required for FBP support, providing the only baseline functionality which allows 
+but removes the features required for FBP support, providing only the baseline functionality which allows 
 you to structure your programs as graphs.
 
 It also replaces Goflow's usage of reflection with Go's 1.19 generics, which supposed to reduce the amount
